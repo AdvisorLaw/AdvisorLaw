@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADVISERLAW- Legal Advisory</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="header"> 
+    <nav>
+      <a class="logo" href="index.html"><img src="images/logo.png.jpeg"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li class="active"><a href="index.html">HOME</a></li>
+          <li><a href="Topics.html">TOPICS</a>
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="#">CIVIL LAW</a></li>
+                <li><a href="#">CUSTOMARY LAW</a></li>
+                <li><a href="#">COMMON LAW</a></li>
+                <li><a href="#">RELIGIOUS LAW</a></li>
+                <li><a href="#">MIXED LAW</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#FAQ">FAQs</a></li>
+          <li><a href="About.html">ABOUT US</a></li>
+          <li><a href="Contact.html">CONTACT US</a></li>
+          <li><a href=>MEMBERS</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Welcome to AdviserLaw</h1>
+      <p>Your One-Stop Destination for Legal Advice and Guidance<br> powered by AI</p>
+      <a href="" class="hero-btn1">Ask AI</a>
+      <a href="" class="hero-btn2">Talk to a Lawyer</a>
+    </div>
+
+  </section>
+
+  <!--Features-->
+
+  <section class="features-section">
+
+    <h1>Features</h1>
+
+    <div class="row">
+      <div class="features-col">
+        <i class="fa fa-star fa-2x"></i>
+        <h3 class="feat-head">Efficiency</h3>
+        <p>The GPT chatbot is designed to provide fast and efficient service, allowing you to get the information you
+          need quickly and easily.</p>
+      </div>
+     
+      <div class="features-col">
+        <i class="fa fa-clock-o fa-2x"></i>
+        <h3 class="feat-head">24/7 Availability</h3>
+        <p>With the GPT chatbot, you can get legal advice and guidance anytime, anywhere. Our bot is available 24/7 to
+          provide you with the support you need, whenever you need it.</p>
+      </div>
+    
+      <div class="features-col">
+        <i class="fa fa-database fa-2x"></i>
+        <h3 class="feat-head">Comprehensive Knowledge Base</h3>
+        <p>​The chatbot is built on a comprehensive knowledge base of legal information and resources, ensuring that you
+          get accurate and up-to-date answers to your questions.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="FAQs-section" id="FAQ">
+    <h1 class="faqs-heading">FAQs</h1>
+    <div id="faqs-div">
+      <div class="faqs-col">
+        <h3>Q: Is the information provided by the bot accurate and reliable?</h3>
+        <p>A: Yes, our bot uses advanced natural language processing and machine learning algorithms to provide accurate
+          and reliable answers to your legal questions.</p>
+      </div>
+      <div class="faqs-col">
+        <h3>Q: Can I get personalized legal advice from the bot?</h3>
+        <p>A: No, our bot is designed to provide general legal information and guidance. For personalized legal advice,
+          we recommend consulting with an experienced lawyer or legal advisor.</p>
+      </div>
+      <div class="faqs-col">
+        <h3>Q: How long does it take to get an answer from the bot?</h3>
+        <p>A: Our bot provides answers to your legal questions instantly. Simply type in your question and our bot will
+          provide you with a clear and concise answer.
+        </p>
+      </div>
+      <div class="faqs-col">
+        <h3>Q: What types of legal questions can the bot answer?</h3>
+        <p>​A: Our bot can help you with a wide range of legal questions, including employment law, contract law,
+          intellectual property law, and more. If you have a legal question, chances are our bot can help you find the
+          answer.</p>
+      </div>
+    </div>
+    </section>
+
+    <section class="contact">
+      <h1>For more information on our services</h1>
+      <a href="" class="hero-btn3">CONTACT US</a>
+    </section>
+    
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        With our advanced chatbot, you can get answers to all your legal questions quickly and easily. Simply type in your question and our bot will provide you<br> with a clear, concise answer. Whether you need advice on a legal dispute, want to know your rights in a certain situation, or just have a<br> general legal question, our bot is here to help.<br>
+      </p>
+      <p>
+        Explore our website to learn more about our services and how our bot can help you with your legal needs. Start asking your legal questions today!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!----Javascript for Toggle Menu----- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu () {
+        navLinks.style.right = "0";
+      }
+      function hideMenu () {
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
+
+</body>
+
+</html>

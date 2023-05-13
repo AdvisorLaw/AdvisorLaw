@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADVISERLAW- Legal Advisory</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    
+    <nav>
+      <a class="logo" href="index.html"><img src="images/logo.png.jpeg"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="Topics.html">TOPICS</a>
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="#">CIVIL LAW</a></li>
+                <li><a href="#">CUSTOMARY LAW</a></li>
+                <li><a href="#">COMMON LAW</a></li>
+                <li><a href="#">RELIGIOUS LAW</a></li>
+                <li><a href="#">MIXED LAW</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href=>FAQs</a></li>
+          <li><a href="About.html">ABOUT US</a></li>
+          <li><a href="Contact.html">CONTACT US</a></li>
+          <li><a href=>MEMBERS</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>RELIGIOUS LAW</h1>
+
+  </section>
+
+  <!---------Religious law section---------->
+
+
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        With our advanced chatbot, you can get answers to all your legal questions quickly and easily. Simply type in your question and our bot will provide you<br> with a clear, concise answer. Whether you need advice on a legal dispute, want to know your rights in a certain situation, or just have a<br> general legal question, our bot is here to help.<br>
+      </p>
+      <p>
+        Explore our website to learn more about our services and how our bot can help you with your legal needs. Start asking your legal questions today!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!----Javascript for Toggle Menu----- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu () {
+        navLinks.style.right = "0";
+      }
+      function hideMenu () {
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
+</body>
+
+</html>
